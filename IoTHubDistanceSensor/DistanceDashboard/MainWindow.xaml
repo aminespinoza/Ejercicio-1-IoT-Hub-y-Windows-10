@@ -1,0 +1,26 @@
+﻿<Window x:Class="DistanceDashboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DistanceDashboard"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock x:Name="txtDistance" Margin="0" TextWrapping="Wrap" Text="Distancia:" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="txtDistance_Copy" Margin="10,10,0,0" TextWrapping="Wrap" Text="Control de distancia" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="24"/>
+        <StackPanel Height="50" Margin="10,45,10,0" VerticalAlignment="Top" Orientation="Horizontal" HorizontalAlignment="Left">
+            <Rectangle x:Name="rect1" Fill="#FF06B306" HorizontalAlignment="Left" Height="50" Width="30" d:LayoutOverrides="LeftPosition, RightPosition" Stroke="White"/>
+            <Rectangle x:Name="rect2" Fill="#FF06B306" HorizontalAlignment="Left" Height="50" Width="30" d:LayoutOverrides="LeftPosition, RightPosition" Stroke="White"/>
+            <Rectangle x:Name="rect3" Fill="#FF00EB00" HorizontalAlignment="Left" Height="50" Width="30" d:LayoutOverrides="LeftPosition, RightPosition" Stroke="White"/>
+            <Rectangle x:Name="rect4" Fill="#FFBEBF00" Width="30" d:LayoutOverrides="LeftPosition, RightPosition" Stroke="White"/>
+            <Rectangle x:Name="rect5" Fill="#FFFEFF00" Width="30" d:LayoutOverrides="LeftPosition, RightPosition" Stroke="White"/>
+            <Rectangle x:Name="rect6" Fill="#FFFEFF00" Width="30" d:LayoutOverrides="LeftPosition, RightPosition" Stroke="White"/>
+            <Rectangle x:Name="rect7" Fill="Orange" Width="30" d:LayoutOverrides="LeftPosition, RightPosition" Stroke="White"/>
+            <Rectangle x:Name="rect8" Fill="#FFF38300" Width="30" d:LayoutOverrides="LeftPosition, RightPosition" Stroke="White"/>
+            <Rectangle x:Name="rect9" Fill="#FFFF5200" Width="30" d:LayoutOverrides="LeftPosition, RightPosition" Stroke="White"/>
+            <Rectangle x:Name="rect10" Fill="Red" Width="30" d:LayoutOverrides="LeftPosition, RightPosition" Stroke="White"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
