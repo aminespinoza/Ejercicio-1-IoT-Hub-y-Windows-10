@@ -19,9 +19,9 @@ namespace IoTHubDistanceSensor
         GpioPin triggerPin = null; //TRIGGER
 
         static DeviceClient deviceClient;
-        static string iotHubUri = "demoHubAmin.azure-devices.net";
-        static string deviceKey = "11/uS3+aPjTKc9WdWUJG/yueMEqvbIuN8ckfcB2e+y8=";
-        static string deviceId = "dispositivo001";
+        static string iotHubUri = "dirección de tu hub";
+        static string deviceKey = "llave del dispositivo";
+        static string deviceId = "nombre del dispositivo";
 
         public MainPage()
         {
@@ -102,7 +102,6 @@ namespace IoTHubDistanceSensor
 
             Debug.WriteLine(messageString);
             await deviceClient.SendEventAsync(message);
-            //txtEnvioDatos.Text = "Datos enviados";
         }
     }
 }

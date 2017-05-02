@@ -11,7 +11,7 @@ namespace DistanceDashboard
     public partial class MainWindow : Window
     {
         static ServiceClient serviceClient;
-        static string connectionString = "HostName=demoHubAmin.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=rLxml4G8W5Il00YfJdAESySJ6ioB7yxLfLjM8vncmDc=";
+        static string connectionString = "cadena de conexión del hub";
         static string iotHubD2cEndpoint = "messages/events";
         static EventHubClient eventHubClient;
         EventHubReceiver eventHubReceiver;
