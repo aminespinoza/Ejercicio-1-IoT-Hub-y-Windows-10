@@ -1,0 +1,1 @@
+C:\Users\amine\Documents\GitHub\IoTHubWithUniversalWindows\IoTHubDistanceSensor\IoTHubDistanceSensor\IoTHubDistanceSensor.csproj;arm

@@ -25797,10 +25797,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "c:\\users\\amine\\documents\\visual studio 2017\\Projects\\IoTHubDistanceSensor\\IoTHubDistanceSensor\\IoTHubDistanceSensor.csproj",
+      "projectUniqueName": "C:\\Users\\amine\\Documents\\GitHub\\IoTHubWithUniversalWindows\\IoTHubDistanceSensor\\IoTHubDistanceSensor\\IoTHubDistanceSensor.csproj",
       "projectName": "IoTHubDistanceSensor",
-      "projectPath": "c:\\users\\amine\\documents\\visual studio 2017\\Projects\\IoTHubDistanceSensor\\IoTHubDistanceSensor\\IoTHubDistanceSensor.csproj",
-      "projectJsonPath": "c:\\users\\amine\\documents\\visual studio 2017\\Projects\\IoTHubDistanceSensor\\IoTHubDistanceSensor\\project.json",
+      "projectPath": "C:\\Users\\amine\\Documents\\GitHub\\IoTHubWithUniversalWindows\\IoTHubDistanceSensor\\IoTHubDistanceSensor\\IoTHubDistanceSensor.csproj",
+      "projectJsonPath": "C:\\Users\\amine\\Documents\\GitHub\\IoTHubWithUniversalWindows\\IoTHubDistanceSensor\\IoTHubDistanceSensor\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {
